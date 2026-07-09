@@ -252,6 +252,11 @@ body {
     color: var(--content);
 }
 
+.pub-card .pub-note {
+    font-size: 13px;
+    white-space: nowrap;
+}
+
 .pub-meta {
     display: flex;
     flex-wrap: wrap;

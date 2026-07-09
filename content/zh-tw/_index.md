@@ -68,7 +68,7 @@ description: "廖傑恩——臺大可信賴 AI 研究者：GNN 公平性、LLM 
 
 <div class="pub-card">
   <a class="pub-title" href="https://arxiv.org/abs/2603.20433">ALICE: A Multifaceted Evaluation Framework of Large Audio-Language Models' In-Context Learning Ability</a>
-  <div class="pub-authors">Yen-Ting Piao, <strong>Jay Chiehen Liao</strong>（共同第一作者）, Wei-Tang Chien, Toshiki Ogimoto, Shang-Tse Chen, Yun-Nung Chen, Chun-Yi Lee, Shao-Yuan Lo</div>
+  <div class="pub-authors">Yen-Ting Piao†, <strong>Jay Chiehen Liao</strong>†, Wei-Tang Chien†, Toshiki Ogimoto†, Shang-Tse Chen, Yun-Nung Chen, Chun-Yi Lee, Shao-Yuan Lo <span class="pub-note">（† 共同第一作者）</span></div>
   <div class="pub-meta"><span class="venue-badge">arXiv 2026</span><span class="tag">#音訊語言模型</span><span class="tag">#In-Context Learning</span></div>
   <p class="pub-desc">提出三階段評測框架，逐步減少文字引導，評估大型音訊語言模型在音訊條件下的 in-context learning 能力。我負責建置推論框架，並主導結果分析與所有圖表。</p>
   <div class="pub-links"><a href="https://arxiv.org/abs/2603.20433">arXiv</a></div>
