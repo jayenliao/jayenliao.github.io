@@ -1,0 +1,18 @@
+{{- /* Profile card shown on every page; data comes from the home page's frontmatter.
+     Uses <h1> on the home page and <div> elsewhere (each page keeps its own h1). */}}
+{{- $home := site.Home }}
+{{- $name := "" }}
+{{- range $i, $line := split $home.Title "\n" }}
+  {{- if $i }}{{ $name = printf "%s<br>%s" $name $line }}{{ else }}{{ $name = $line }}{{ end }}
+{{- end }}
+<aside class="home-sidebar">
+  <a href="{{ $home.RelPermalink }}"><img src="/images/profile.png" alt="{{ site.Title }}" class="hero-avatar" /></a>
+  {{- if .IsHome }}
+  <h1 class="hero-name">{{ $name | safeHTML }}</h1>
+  {{- else }}
+  <div class="hero-name">{{ $name | safeHTML }}</div>
+  {{- end }}
+  {{- with $home.Params.role }}<p class="hero-role">{{ . }}</p>{{- end }}
+  {{ partial "social_icons.html" (dict "align" "center") }}
+  {{- with $home.Params.location }}<p class="hero-location">📍 {{ . }}</p>{{- end }}
+</aside>

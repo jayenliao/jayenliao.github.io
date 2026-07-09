@@ -1,0 +1,119 @@
+# Change baseURL to your real GitHub Pages URL (e.g. https://jayenliao.github.io/)
+baseURL = "https://jayenliao.github.io/"
+title = "Jay Chiehen Liao"
+theme = "PaperMod"
+
+# zh-tw is temporarily disabled (content kept in content/zh-tw/). To re-enable:
+# remove `disabled = true` in [languages.zh-tw], set defaultContentLanguage = "zh-tw"
+# and defaultContentLanguageInSubdir = true.
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+pygmentsUseClasses = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[markup.goldmark.renderer]
+  unsafe = true   # allow inline HTML in markdown (intro photo)
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]   # JSON enables search
+
+[params]
+  env = "production"
+  description = "Jay Chiehen Liao — Trustworthy-AI Scientist at NTU: GNN fairness, LLM safety evaluation, and machine learning in healthcare."
+  images = ["images/og.png"]   # og:image fallback for link previews
+  author = "Jay Chiehen Liao"
+  defaultTheme = "light"           # academic light skin 
+  disableThemeToggle = true
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowWordCount = false
+  displayFullLangName = true
+
+  [params.profileMode]
+    enabled = false   # single-page home via layouts/home.html + _index.md
+
+  [params.assets]
+    disableHLJS = false
+    favicon = "favicon.ico"
+
+# Social icons (shown under the hero and in footer)
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/jayenliao"
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/jc-liao/"
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:jay.chiehen@gmail.com"
+[[params.socialIcons]]
+  name = "googlescholar"
+  url = "https://scholar.google.com/citations?user=2I-EP00AAAAJ&hl=en"
+
+# ---------------- Languages ----------------
+[languages]
+
+  [languages.zh-tw]
+    disabled = true   # temporarily hidden; content preserved in content/zh-tw/
+    label = "繁體中文"
+    locale = "zh-TW"
+    contentDir = "content/zh-tw"
+    weight = 1
+    title = "廖傑恩 Jay Chiehen Liao"
+    [[languages.zh-tw.menu.main]]
+      identifier = "publications"
+      name = "研究著作"
+      pageRef = "/publications"
+      weight = 20
+    [[languages.zh-tw.menu.main]]
+      identifier = "cv"
+      name = "學經歷"
+      url = "https://drive.google.com/file/d/1B_3KaDycAkvVr1g8M3sI9lHv7md6t9fj/view"
+      weight = 30
+    [[languages.zh-tw.menu.main]]
+      identifier = "awards"
+      name = "獲獎"
+      pageRef = "/awards"
+      weight = 40
+    [[languages.zh-tw.menu.main]]
+      identifier = "search"
+      name = "搜尋"
+      pageRef = "/search"
+      weight = 60
+
+  [languages.en]
+    label = "English"
+    locale = "en-US"
+    contentDir = "content/en"
+    weight = 2
+    title = "Jay Chiehen Liao"
+    [[languages.en.menu.main]]
+      identifier = "publications"
+      name = "Publications"
+      pageRef = "/publications"
+      weight = 20
+    [[languages.en.menu.main]]
+      identifier = "cv"
+      name = "CV"
+      url = "https://drive.google.com/file/d/1B_3KaDycAkvVr1g8M3sI9lHv7md6t9fj/view"
+      weight = 30
+    [[languages.en.menu.main]]
+      identifier = "awards"
+      name = "Awards"
+      pageRef = "/awards"
+      weight = 40
+    [[languages.en.menu.main]]
+      identifier = "search"
+      name = "Search"
+      pageRef = "/search"
+      weight = 60

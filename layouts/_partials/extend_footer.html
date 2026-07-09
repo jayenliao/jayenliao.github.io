@@ -1,0 +1,9 @@
+{{- /* Open external links in a new tab (internal navigation stays in the same tab) */}}
+<script>
+  document.querySelectorAll("a[href]").forEach((a) => {
+    if (a.host && a.host !== location.host) {
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+    }
+  });
+</script>

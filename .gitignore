@@ -1,0 +1,15 @@
+# Hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Local-only files (not for the public repo)
+assets/images/profile_original.jpg
+/*.pdf
+
+# Claude local
+.claude/settings.local.json

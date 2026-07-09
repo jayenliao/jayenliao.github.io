@@ -1,0 +1,11 @@
+{{- define "main" }}
+{{/* Academic two-column home: sticky profile sidebar + content column */}}
+<div class="home-layout">
+  {{ partial "profile_sidebar.html" . }}
+  <article class="post-single home-page">
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+  </article>
+</div>
+{{- end }}
