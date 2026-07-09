@@ -17,7 +17,7 @@ Reach me at [jay.chiehen@gmail.com](mailto:jay.chiehen@gmail.com) — I'm open t
 
 ## Current Research
 
-- **Fairness in graph neural networks** (M.S. thesis direction):  when does graph structure amplify disparities across groups, and how can we mitigate bias without sacrificing predictive utility?
+- **Adversarially robust fairness in graph neural networks** (M.S. thesis direction): investigating how fairness-targeted attacks (e.g., node injection, adversarial edge perturbation) degrade group fairness in GNNs, and developing defenses that keep predictions both accurate and fair under attack.
 - **Safety and robustness evaluation of (multimodal) LLMs**: building an evaluation pipeline, [ALICE](https://arxiv.org/abs/2603.20433), which reveals what large audio-language models genuinely learn from in-context learning.
 - **Paternal perinatal depression**: predicting depression in new fathers, testing whether maternal partner data improves prediction beyond the father's own sleep, work–family conflict, and social support.
 
