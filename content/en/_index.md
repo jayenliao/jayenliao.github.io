@@ -7,13 +7,13 @@ description: "Jay Chiehen Liao — Trustworthy-AI Scientist at NTU: GNN fairness
 
 ## About Me
 
-I'm a Master's student in Computer Science at National Taiwan University, advised by Prof. [Shang-Tse Chen](https://www.csie.ntu.edu.tw/~stchen/). I work on trustworthy AI — understanding and improving how models behave where mistakes matter most: fairness in graph neural networks, safety evaluation of (multimodal) LLMs, and machine learning in healthcare.
+I'm a Master's student in Computer Science at National Taiwan University, advised by [Prof. Shang-Tse Chen](https://www.csie.ntu.edu.tw/~stchen/). I work on fairness in graph neural networks and machine learning in healthcare.
 
-I care about whether AI systems stay trustworthy for the people most likely to be overlooked when they fail. Before returning to academia, I spent a year as a data scientist at a FinTech startup, building fraud- and anomaly-detection systems. My earlier training in statistics and psychology shapes how I think about measurement, behavior, and evaluation.
+Before returning to university, I spent a year as a data scientist at a FinTech startup, building fraud- and anomaly-detection systems. My earlier training in statistics and psychology shapes how I think about measurement, behavior, and evaluation.
 
-Beyond research, I sketch, swim, and trained as a lifeguard. I care deeply about mental health, digital equity, and the preservation of the Taiwanese language — the same commitments that drive my work on trustworthy AI.
+Outside the lab, I photograph, sketch, swim, and have trained as a lifeguard. I've been active in gender-equity advocacy, and I care deeply about mental health and the preservation of the Taiwanese language.
 
-Please feel free to [get in touch](mailto:jay.chiehen@gmail.com) if you're interested in collaboration or discussion 🤝
+Please feel free to [contact me](mailto:jay.chiehen@gmail.com). 🤝
 
 ## Education
 
