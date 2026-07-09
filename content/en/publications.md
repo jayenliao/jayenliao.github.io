@@ -11,7 +11,7 @@ ShowBreadCrumbs: false
 Yen-Ting Piao†, **Jay Chiehen Liao**†, Wei-Tang Chien†, Toshiki Ogimoto†, Shang-Tse Chen, Yun-Nung Chen, Chun-Yi Lee, Shao-Yuan Lo. *arXiv preprint, 2026.* [[arXiv]](https://arxiv.org/abs/2603.20433)
 
 - A three-stage framework that progressively reduces textual guidance to evaluate LALMs' in-context learning under audio conditioning.
-- Built the LALM inference framework; ran experiments; led results analysis and all figures.
+- Built the LALM inference framework; ran experiments; led results analysis.
 
 ### TabGSL: Graph Structure Learning for Tabular Data Prediction
 **Jay Chiehen Liao**, Cheng-Te Li. *IEEE International Conference on Big Data (BigData), 2025.* [[IEEE Xplore]](https://ieeexplore.ieee.org/abstract/document/11402569) · [[arXiv]](https://arxiv.org/abs/2305.15843)

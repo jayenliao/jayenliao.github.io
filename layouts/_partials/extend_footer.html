@@ -1,7 +1,7 @@
-{{- /* Open external links in a new tab (internal navigation stays in the same tab) */}}
+{{- /* Open external links and PDFs in a new tab (internal navigation stays in the same tab) */}}
 <script>
   document.querySelectorAll("a[href]").forEach((a) => {
-    if (a.host && a.host !== location.host) {
+    if ((a.host && a.host !== location.host) || a.pathname.endsWith(".pdf")) {
       a.target = "_blank";
       a.rel = "noopener noreferrer";
     }

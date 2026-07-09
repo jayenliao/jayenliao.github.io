@@ -1,8 +1,8 @@
 ---
 title: "廖傑恩 Jay Liao"
-role: "Trustworthy-AI Scientist"
+role: "MS Student in CS at NTU · Trustworthy AI"
 location: "Taipei, Taiwan"
-description: "Jay Chiehen Liao — Trustworthy-AI Scientist at NTU: GNN fairness, LLM safety evaluation, and machine learning in healthcare."
+description: "Jay Chiehen Liao — CS master's student at NTU working on trustworthy ML: GNN fairness, LLM safety evaluation, and machine learning in healthcare."
 ---
 
 ## About Me
@@ -13,7 +13,13 @@ Before returning to university, I spent a year as a data scientist at a FinTech 
 
 Outside the lab, I photograph, sketch, swim, and have trained as a lifeguard. I've been active in gender-equity advocacy, and I care deeply about mental health and the preservation of the Taiwanese language.
 
-Please feel free to [contact me](mailto:jay.chiehen@gmail.com). 🤝
+Reach me at [jay.chiehen@gmail.com](mailto:jay.chiehen@gmail.com) — I'm open to research collaboration and internships. 🤝
+
+## Current Research
+
+- **Fairness in graph neural networks** (M.S. thesis direction):  when does graph structure amplify disparities across groups, and how can we mitigate bias without sacrificing predictive utility?
+- **Safety and robustness evaluation of (multimodal) LLMs**: building an evaluation pipeline, [ALICE](https://arxiv.org/abs/2603.20433), which reveals what large audio-language models genuinely learn from in-context learning.
+- **Paternal perinatal depression**: predicting depression in new fathers, testing whether maternal partner data improves prediction beyond the father's own sleep, work–family conflict, and social support.
 
 ## Education
 
@@ -35,17 +41,6 @@ Please feel free to [contact me](mailto:jay.chiehen@gmail.com). 🤝
     <div class="tl-body"><span class="tl-title">B.S. in Psychology & B.B.A. in Statistics (double major)</span><br><span class="tl-sub">National Cheng Kung University</span></div>
   </div>
 </div>
-
-## Research Interests
-
-<ul class="chips">
-  <li>Trustworthy AI</li>
-  <li>Human-centered AI</li>
-  <li>Fairness in Machine Learning</li>
-  <li>LLM Safety</li>
-  <li>Graph Neural Networks</li>
-  <li>Tabular Data</li>
-</ul>
 
 ## Work Experience
 
@@ -72,7 +67,7 @@ Please feel free to [contact me](mailto:jay.chiehen@gmail.com). 🤝
   </div>
 </div>
 
-[Full CV →](https://drive.google.com/file/d/1B_3KaDycAkvVr1g8M3sI9lHv7md6t9fj/view)
+[Full CV (PDF) →](/cv.pdf)
 
 ## Selected Research
 
