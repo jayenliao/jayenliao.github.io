@@ -147,12 +147,13 @@ body {
     }
 }
 
-/* ---------------- Section rhythm ---------------- */
-/* Slightly smaller body text on the home page (About Me etc.) */
-.home-page .post-content > p:not(.last-updated) {
+/* ---------------- Typography ---------------- */
+/* Unified body text size across all pages (PaperMod default is 18px) */
+.post-single .post-content {
     font-size: 16px;
 }
 
+/* ---------------- Section rhythm ---------------- */
 .home-page .post-content h2 {
     margin-top: 44px;
     padding-bottom: 6px;
@@ -299,15 +300,6 @@ body {
     background: var(--accent);
     color: #fff;
     text-decoration: none;
-}
-
-/* ---------------- Compact pages (set `pageClass: "compact-page"` in frontmatter) ---------------- */
-.compact-page .post-content {
-    font-size: 16px;
-}
-
-.compact-page .post-content li {
-    font-size: 16px;
 }
 
 /* ---------------- Footer note ---------------- */
