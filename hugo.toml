@@ -85,11 +85,6 @@ pygmentsUseClasses = true
       name = "獲獎"
       pageRef = "/awards"
       weight = 40
-    [[languages.zh-tw.menu.main]]
-      identifier = "search"
-      name = "搜尋"
-      pageRef = "/search"
-      weight = 60
 
   [languages.en]
     label = "English"
@@ -112,8 +107,3 @@ pygmentsUseClasses = true
       name = "Awards"
       pageRef = "/awards"
       weight = 40
-    [[languages.en.menu.main]]
-      identifier = "search"
-      name = "Search"
-      pageRef = "/search"
-      weight = 60
