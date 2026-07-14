@@ -84,7 +84,7 @@ Reach me at [jay.chiehen@gmail.com](mailto:jay.chiehen@gmail.com) — I'm open t
   <div class="pub-authors"><strong>Jay Chiehen Liao</strong>, Cheng-Te Li</div>
   <div class="pub-meta"><span class="venue-badge">IEEE BigData 2025</span><span class="tag">#Graph Structure Learning</span><span class="tag">#Tabular Data</span></div>
   <p class="pub-desc">A contrastive-learning GNN with a transformer-based extractor that jointly learns instance correlations and feature interactions for tabular prediction.</p>
-  <div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/11402569">Paper</a></div>
+  <div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/11402569">Paper</a><a href="https://github.com/jayenliao/TabGSL">Code</a></div>
 </div>
 
 <div class="pub-card">
@@ -97,4 +97,4 @@ Reach me at [jay.chiehen@gmail.com](mailto:jay.chiehen@gmail.com) — I'm open t
 
 [All publications →]({{< relref "publications" >}})
 
-<p class="last-updated">Last updated on July 9, 2026</p>
+<p class="last-updated">Last updated on July 14, 2026</p>
