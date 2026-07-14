@@ -74,7 +74,7 @@ Reach me at [jay.chiehen@gmail.com](mailto:jay.chiehen@gmail.com) — I'm open t
 <div class="pub-card">
   <a class="pub-title" href="https://arxiv.org/abs/2603.20433">ALICE: A Multifaceted Evaluation Framework of Large Audio-Language Models' In-Context Learning Ability</a>
   <div class="pub-authors">Yen-Ting Piao†, <strong>Jay Chiehen Liao</strong>†, Wei-Tang Chien†, Toshiki Ogimoto†, Shang-Tse Chen, Yun-Nung Chen, Chun-Yi Lee, Shao-Yuan Lo <span class="pub-note">(† equal contribution)</span></div>
-  <div class="pub-meta"><span class="venue-badge">arXiv 2026</span><span class="tag">#Audio-Language Models</span><span class="tag">#In-Context Learning</span></div>
+  <div class="pub-meta"><span class="venue-badge">arXiv 2026</span><span class="tag">Audio-Language Models</span><span class="tag">In-Context Learning</span></div>
   <p class="pub-desc">A three-stage framework that progressively reduces textual guidance to evaluate LALMs' in-context learning under audio conditioning. Built the inference framework; led results analysis and all figures.</p>
   <div class="pub-links"><a href="https://arxiv.org/abs/2603.20433">arXiv</a></div>
 </div>
@@ -82,7 +82,7 @@ Reach me at [jay.chiehen@gmail.com](mailto:jay.chiehen@gmail.com) — I'm open t
 <div class="pub-card">
   <a class="pub-title" href="https://ieeexplore.ieee.org/abstract/document/11402569">TabGSL: Graph Structure Learning for Tabular Data Prediction</a>
   <div class="pub-authors"><strong>Jay Chiehen Liao</strong>, Cheng-Te Li</div>
-  <div class="pub-meta"><span class="venue-badge">IEEE BigData 2025</span><span class="tag">#Graph Structure Learning</span><span class="tag">#Tabular Data</span></div>
+  <div class="pub-meta"><span class="venue-badge">IEEE BigData 2025</span><span class="tag">Graph Structure Learning</span><span class="tag">Tabular Data</span></div>
   <p class="pub-desc">A contrastive-learning GNN with a transformer-based extractor that jointly learns instance correlations and feature interactions for tabular prediction.</p>
   <div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/11402569">Paper</a><a href="https://github.com/jayenliao/TabGSL">Code</a></div>
 </div>
@@ -90,7 +90,7 @@ Reach me at [jay.chiehen@gmail.com](mailto:jay.chiehen@gmail.com) — I'm open t
 <div class="pub-card">
   <a class="pub-title" href="https://doi.org/10.1186/s12911-021-01639-y">Predictive Modeling for 14-Day Unplanned Hospital Readmission Risk by Using Machine Learning Algorithms</a>
   <div class="pub-authors">Yu-Tai Lo†, <strong>Jay Chiehen Liao</strong>†, Mei-Hua Chen, Chia-Ming Chang, Cheng-Te Li <span class="pub-note">(† equal contribution)</span></div>
-  <div class="pub-meta"><span class="venue-badge">BMC Med Inform Decis Mak 2021</span><span class="tag">#Healthcare AI</span><span class="tag">#Explainable ML</span></div>
+  <div class="pub-meta"><span class="venue-badge">BMC Med Inform Decis Mak 2021</span><span class="tag">Healthcare AI</span><span class="tag">Explainable ML</span></div>
   <p class="pub-desc">An explainable machine-learning model that predicts 14-day unplanned hospital readmission from EHR data of 24k+ patients, using SHAP-based feature analysis to align predictions with clinical experience.</p>
   <div class="pub-links"><a href="https://doi.org/10.1186/s12911-021-01639-y">Paper</a></div>
 </div>
